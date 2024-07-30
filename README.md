@@ -56,7 +56,7 @@ SpringBoot, MySQL, Redis, RabbitMQ, MyBatis-Plus, Maven, Linux, JMeter
 ### 15. Redis 分布式锁
 - 使用 Redis 分布式锁防止超卖，配合 Lua 脚本实现复杂业务场景下的锁机制。
 
-##7.30 使用方法
+7.30 使用方法
 - maven仓库加载好配置后，配置一下resource文件夹里的application.yml文件，把mysql,redis,rabbitmq等配置都设置成自己的，如果没有请按照网上的教程安装
 - 注解的代码是旧版本的，可以使用旧版本和新版本代码比较学习
 - 运行项目，打开localhost:9999/login/toLogin ，即可进入登陆界面
